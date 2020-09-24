@@ -1,0 +1,25 @@
+{
+  "name": "code-to-graph",
+  "version": "1.0.15",
+  "main": "index.js",
+  "repository": "https://github.com/crubier/code-to-graph.git",
+  "author": "Vincent Lecrubier <vincent.lecrubier@sterblue.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "postpublish": "cd docs-source && yarn install && yarn docs"
+  },
+  "bin": {
+    "code-to-graph": "./cli.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.2.2",
+    "@babel/parser": "^7.2.3",
+    "lodash": "^4.17.11",
+    "mermaid": "^8.0.0",
+    "opn": "^5.4.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
