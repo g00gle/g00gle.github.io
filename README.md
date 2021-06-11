@@ -2,3 +2,7 @@
 public face of the site
 
 Hey, this is where I will be publishing new content likely tied to taiko/gauge test automation work as well some other personal software projects I am working on for fun.
+
+Why not go play around with this project?
+learntotype.herokuapp.com/
+https://github.com/g00gle/rapid_typing
